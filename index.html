@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>R Technologies</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+
+    <!--Bootstrap cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+    <!--Bootstrap icon cdn-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <header id="home">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark px-4 border-bottom fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-1 text-white" href="#">R<span class="text-danger fs-4">Technologies</span></a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-white bg-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#courses" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Courses
+                            </a>
+                            <ul class="dropdown-menu text-center">
+                                <li><a class="dropdown-item" href="#courses">Mobile App Dev</a></li>
+                                <li><a class="dropdown-item" href="#courses">Front End Developer</a></li>
+                                <li><a class="dropdown-item" href="#courses">Web Dev</a></li>
+                                <li><a class="dropdown-item" href="#courses">Software Testing</a></li>
+                                <li><a class="dropdown-item" href="#courses">Data Science</a></li>
+                                <li><a class="dropdown-item" href="#courses">Diploma</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div style="width: 100%; height: 90px;"></div>
+
+        <div class="bg-warning mb-1">
+            <marquee width="100%" direction="left" height="20px" scrollamount="12">
+                | Join Courses with live project | 100% olacement assistance | 10% Discount on all courses if paid fees in one installment | Paid internship oppourtunity | Experienced staff | Both online and offine batches available | Address : 2nd floor, Sdhyam compex, Panchavati, Peth road, Pune-411037 | Contact No: 7268000010 | Email : rtechnologies@gmail.com
+            </marquee>
+        </div>
+
+        <!--slider-->
+        <div id="carouselExampleCaptions" class="carousel slide bg-info ">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner fw-bolder">
+                <div class="carousel-item active">
+                    <img src="img/programming.svg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <marquee width="100%" direction="left" height="20px" scrollamount="15" class="text-white">
+                            Join Web Development with live project
+                        </marquee>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/web-design.svg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <marquee width="100%" direction="left" height="20px" scrollamount="15" class="text-white">
+                            Join Web Design with 100% placement assistance
+                        </marquee>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mobile-dev.svg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <marquee width="100%" direction="left" height="20px" scrollamount="15" class="text-white">
+                            Join Mob App Development with 100% placement assistance
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!--Section-->
+    <section class="about my-5" id="about">
+        <div class="container">
+            <div>
+                <h1 class="text-center text-danger" data-aos="flip-left" data-aos-offset="100">About  <span class="text-dark fs-1">  R</span><span class="fs-4">Technologies</span></h1>
+                <hr class="w-25 m-auto" />
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 cpl-lg-6 col-12" data-aos="zoom-in" data-aos-offset="100">
+                    <h1 class="text-center mt-3">what do you want to know</h1>
+                    <p class="p-3 text-start">
+                        R Technologies provides services in the area of IT training.<br>
+                        R Technologies is number 1 institute in IT training.
+                        R Technologies is an institute driven by the agenda to equip students with the right mix of a sound understanding of the fundamentals and a good comprehension of the newest in Information Technologies, thereby increasing their Employability Quotient.<br>
+                    </p>
+
+                    <!--accordion-->
+                    <div class="accordion" id="accordionExample" data-aos="fade-right"
+                    data-aos-offset="200" data-aos-easing="ease-in-sine">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Total Student Placed
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>
+                                        More than 2000+ students placed in MNC and other product based companies.
+                                    </strong> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Our Recruiters
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>
+                                        We have strong network of 200+ recruiting companies across the country.
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 cpl-lg-6 col-12 m-auto text-end" data-aos="fade-right" data-aos-offset="100">
+                    <img src="img/student.svg" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services py-5 bg-body-secondary" id="courses">
+        <div class="container">
+            <div class="text-center" data-aos="flip-left" data-aos-offset="200">
+                <h1 class="text-center text-danger">Our Courses</h1>
+                <hr class="w-25 m-auto" />
+            </div>
+
+            <h3 class="text-center mt-4 text-primary" data-aos="flip-up" data-aos-offset="300">10% Discount on all courses if paid fees in one installment.</h3>
+
+            <!--row 1-->
+            <div class="row mt-5" data-aos="zoom-in-up" data-aos-offset="200">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                          <i class="bi bi-1-square bg-white p-1 text-black"></i>
+                          <h5 class="card-title">Mobile Application Development</h5>
+                          <p class="card-text">Duration : 4 Months</p>
+                          <p class="card-text">Fees : 20,000/- Rs</p>
+                          <p>
+                            Course Details :
+                            <ul>
+                                <li>JAVA Concepts and Sql</li>
+                                <li>Introduction to Android, Application Structure</li>
+                                <li>Emulator-Android Virtual Device</li>
+                                <li>Basic UI design, Menu</li>
+                                <li>Tabs and Tab Activity, Styles & Themes</li>
+                                <li>Android Debug Bridge (adb) tool, Linkify</li>
+                                <li>Advanced</li>
+                            </ul>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                          <i class="bi bi-2-square bg-white p-1 text-black"></i>
+                          <h5 class="card-title">Front End Developer</h5>
+                          <p class="card-text">Duration : 3 Months</p>
+                          <p class="card-text">Fees : 12,000/- Rs</p>
+                          <p>
+                            Course Details :
+                            <ul>
+                                <li>Figma</li>
+                                <li>Basic UI design</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Javascript</li>
+                                <li>Typescript</li>
+                                <li>React/Angular</li>
+                                <li>Project</li>
+                            </ul>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                          <i class="bi bi-3-square bg-white p-1 text-black"></i>
+                          <h5 class="card-title">Full Stack Web Developer</h5>
+                          <p class="card-text">Duration : 6 Months</p>
+                          <p class="card-text">Fees : 40,000/- Rs</p>
+                          <p>
+                            Course Details :
+                            <ul>
+                                <li>HTML5, CSS3, JS</li>
+                                <li>Core Java</li>
+                                <li>Advance JAVA</li>
+                                <li>Hibernate</li>
+                                <li>Spring</li>
+                                <li>Springboot</li>
+                                <li>Sql</li>
+                                <li>Project</li>
+                            </ul>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--row 2-->
+            <div class="row mt-5" data-aos="zoom-in-up" data-aos-offset="200">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                          <i class="bi bi-4-square bg-white p-1 text-black"></i>
+                          <h5 class="card-title">Software Testing</h5>
+                          <p class="card-text">Duration : 6 Months</p>
+                          <p class="card-text">Fees : 35,000/- Rs</p>
+                          <p>
+                            Course Details :
+                            <ul>
+                                <li>Core Java</li>
+                                <li>Manual Testing</li>
+                                <li>Automation Testing</li>
+                                <li>Selenium</li>
+                                <li>Postman</li>
+                                <li>Salesforce Testing</li>
+                                <li>Project</li>
+                            </ul>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                          <i class="bi bi-5-square bg-white p-1 text-black"></i>
+                          <h5 class="card-title">Data Science</h5>
+                          <p class="card-text">Duration : 6 Months</p>
+                          <p class="card-text">Fees : 40,000/- Rs</p>
+                          <p>
+                            Course Details :
+                            <ul>
+                                <li>Python</li>
+                                <li>Excel, Mysql</li>
+                                <li>Tableau</li>
+                                <li>Power BI</li>
+                                <li>Tenserflow</li>
+                                <li>Numpy, Pandas, Matplotlib</li>
+                                <li>Project</li>
+                            </ul>
+                          </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                          <i class="bi bi-6-square bg-white p-1 text-black"></i>
+                          <h5 class="card-title">Diploma</h5>
+                          <p class="card-text">Duration : 2 Months</p>
+                          <p class="card-text">Fees : 30,000/- Rs</p>
+                          <p>
+                            Course Details :
+                            <ul>
+                                <li>C</li>
+                                <li>C++</li>
+                                <li>Core Java</li>
+                                <li>Advance Java</li>
+                                <li>DSA</li>
+                                <li>Sql</li>
+                                <li>Project</li>
+                            </ul>
+                          </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h6 class="text-center text-danger mx-5 mt-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000">Don't miss the opportunity and join today. This offer is valid for limited period only.</h6>
+        </div>
+    </section>
+
+    <section class="contact py-5" id="contact">
+        <div class="container">
+            <div class="text-center m-5 text-danger" data-aos="flip-left" data-aos-offset="200">
+                <h1 class="text-center">Contact us</h1>
+                <hr class="w-25 m-auto" />
+            </div>
+
+            <div class="row">
+                <!--form-->
+                <div>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your email">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="mobile" class="form-label">Mob No</label>
+                            <input type="text" class="form-control" id="mobile" placeholder="Enter your mobile number">
+                        </div>
+                        <div class="col-6">
+                          <label for="question" class="form-label">Enter your question?</label>
+                          <input type="text" class="form-control" id="question" placeholder="Enter your question">
+                        </div>
+                        <div class="col-6">
+                            <label for="degree" class="form-label">Degree</label>
+                            <input type="text" class="form-control" id="degree" placeholder="Enter address">
+                        </div>
+                        <div class="col-6">
+                            <label for="year" class="form-label">Passout Year</label>
+                            <input type="text" class="form-control" id="year" placeholder="Enter your address">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputState" class="form-label">Select Course</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Web Dev</option>
+                            <option>Mob App Dev</option>
+                            <option>Web Design</option>
+                            <option>Software Testing</option>
+                            <option>Data Science</option>
+                            <option>Diploma</option>
+                          </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Enter City Name">
+                        </div>
+                        <div class=" text-center">
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center bg-dark text-white">
+        <h3 class="py-2">Address</h3>
+        <hr class="w-25 m-auto mb-3" />
+        <p>2nd floor, Sdhyam compex, Panchavati, Peth road, Pune-411037</p>
+        <p>Contact No: 7268000010</p>
+        <p>Email : rtechnologies@gmail.com</p>
+        <p>Time : Mon-Sat      From : 8.00am To 8.00pm</p>
+        <br/>
+        <h6>@Website Design By Rushikesh</h6>
+        <br/>
+    </footer>
+
+    <!--Bootstrap cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+    <!--Animation CDN-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

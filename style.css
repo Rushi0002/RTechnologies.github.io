@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Satisfy', cursive;
+}
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+}
+ul li a.dropdown-item:hover{
+    background-color: rgb(129, 129, 235);
+}
+footer p{
+    font-size: small;
+}
